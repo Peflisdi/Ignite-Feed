@@ -1,3 +1,4 @@
+import Avatar from '../Avatar/Avatar'
 import Comment from '../Comment/Comment'
 import './Post.css'
 
@@ -6,7 +7,7 @@ export default function Post() {
     <article className='post'>
       <header>
         <div className="author">
-          <img className='avatar' src="https://avatars.githubusercontent.com/u/84815310?v=4" />
+          <Avatar hasBorder src="https://avatars.githubusercontent.com/u/84815310?v=4"/>
           <div className="authorInfo">
             <strong>Pedro Henrique</strong>
             <span>Web Developer</span>
